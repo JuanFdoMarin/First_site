@@ -1,0 +1,120 @@
+*{
+   font-family: 'Roboto', sans-serif;
+}
+
+body{
+   background-image: url(./assest/FONDO.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    position: relative;
+    width: 200px;
+    height: 210px;
+
+}
+
+.photo{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    border-radius: 100px;
+    border-color: #7d7ff5;
+    border-style: inset;
+    width: 140px;
+    height: 180px;
+    z-index: 2;
+}
+
+.message{
+    font-size: 20px;
+    font-weight: bold;
+    color:#FFFFFF ;
+    width: 250px;
+}
+
+.rayas_photo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 60px;
+    width: 140px; 
+    height: 180px;
+    z-index: 1;
+}
+
+
+.Encabezado_proyects{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color:#FFFFFF ;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.proyects{
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.contenedor_proyects{
+    width: 300px;
+    height: 190px;
+    left: 250px;
+    top: 1060px;
+    background: #FFFFFF;
+    border-style: solid ;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.46);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 30px;
+ }
+
+.titulo_proyects{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px;
+
+}
+
+.parrafo_proyects{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 20px;
+    width: 250px;
+    height: 60px;
+    left: 250px;
+   
+}
+.detalles{
+    display: flex;
+   
+    justify-content: space-around;
+}
+
+ /*.img-git{
+   margin-left: 20px
+}*/
+
+.detail{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    /*margin-left: 160px;*/
+    color: #6366F1;
+}
